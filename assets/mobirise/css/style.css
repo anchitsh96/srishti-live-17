@@ -1007,12 +1007,13 @@ html {
 }
 .mbr-figure--caption-inside-top .mbr-figure__caption--std-grid:before,
 .mbr-figure--caption-inside-bottom .mbr-figure__caption--std-grid:before {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
 }
 .mbr-figure__caption-small {
-  color: #ccc;
+  color: #fff;
   display: block;
-  font-size: 14px;
+	font-family: 'archer',serif;
+  font-size: 18px;
   line-height: 1.3em;
 }
 .mbr-figure--no-bg.mbr-figure--caption-outside-top .mbr-figure__caption-small,
