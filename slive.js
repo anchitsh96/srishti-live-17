@@ -12,7 +12,7 @@ var next;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  w = 100;
+  w = 50;
   columns = floor(width/w);
   rows = floor(height/w);
   board = new Array(columns);
