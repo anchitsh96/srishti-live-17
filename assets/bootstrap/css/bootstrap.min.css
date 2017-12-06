@@ -1,12 +1,14 @@
 @font-face {
-font-family: 'archer';
-font-style: normal;
-font-weight: normal;
-src: local('ArcherPro Book'), url('ArcherPro-Book_0.woff') format('woff');
+	font-family: 'archer';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/archer.otf');
 }
 
 @font-face {
 	font-family: 'rasa';
+	font-style: normal;
+	font-weight: normal;
 	src: url('../fonts/rasa.ttf');
 }
 ::-moz-selection {
