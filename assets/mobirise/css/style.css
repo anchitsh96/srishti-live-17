@@ -37,6 +37,7 @@ html {
 .mbr-navbar {
   position: relative;
   width: 100%;
+  background-color: #3e506e;
 }
 .mbr-navbar:before {
   content: "";
@@ -137,7 +138,7 @@ html {
   transition: all 300ms ease-in-out 0s;
 }
 .mbr-navbar__section {
-  //background: #2c2c2c;
+  //background-color: #3e506e;
   height: auto;
   position: absolute;
   top: 0;
@@ -292,7 +293,7 @@ html {
 }
 .mbr-navbar--stuck .mbr-navbar__section,
 .mbr-navbar--relative .mbr-navbar__section {
-  background: #2c2c2c;
+  background-color: #3e506e;
 }
 @media (max-width: 991px) {
   .mbr-navbar--auto-collapse .mbr-navbar__container {
@@ -1149,12 +1150,12 @@ html {
   //letter-spacing: 6px;
   line-height: 1.5em;
   margin: 0;
-  color: #841a53;
+  color: #000;
 }
 .mbr-header__subtext {
-  color: #777;
-  font-size: 20px;
-  font-style: italic;
+  color: #f3931f;
+  font-size: 26px;
+  //font-style: italic;
   letter-spacing: 1px;
   margin: 8px 0 7px 0;
 }

@@ -12,7 +12,7 @@ var next;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  w = 10;
+  w = 50;
   columns = floor(width/w);
   rows = floor(height/w);
   board = new Array(columns);
@@ -24,7 +24,8 @@ function setup() {
     next[i] = new Array(rows);
   }
   init();
- frameRate(20);
+ frameRate(2);
+	noStroke();
 }
 
 function draw() {
@@ -35,18 +36,18 @@ function draw() {
       if ((board[i][j] == 1)){
 		  var rnd = random(4);
 		  if(rnd<1){ 
-			  //fill(132,24,83,10);
-			  fill(255,230,248);
+			  fill('#ebdbe3');
+			  //fill(255,230,248);
 		  }else if(rnd<2){
-			  //fill(62,80,110,10);
-			  fill(225,244,255);
+			  fill('#e1e3e8');
+			  //fill(225,244,255);
 		  }else{
-			  //fill(243,147,31,10);
-			  fill(255,238,225);
+			  fill('#fdeedb');
+			  //fill(255,238,225);
 		  }
 	  }
-      else fill(255,150); 
-      stroke(0,0);
+      else fill(255,200); 
+      //stroke(0,0);
       rect(i*w, j*w, w-1, w-1);
     }
   }
