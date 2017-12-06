@@ -12,7 +12,7 @@ var next;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  w = 50;
+  w = 100;
   columns = floor(width/w);
   rows = floor(height/w);
   board = new Array(columns);
@@ -24,7 +24,7 @@ function setup() {
     next[i] = new Array(rows);
   }
   init();
- frameRate(2);
+ frameRate(1);
 	noStroke();
 }
 
