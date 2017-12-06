@@ -1189,6 +1189,7 @@ html {
   }
   .mbr-header--reduce .mbr-header__text {
     font-size: 22px;
+	color: #f3931f;
     letter-spacing: 1px;
     line-height: 1.1em;
     padding-top: 0.4em;
