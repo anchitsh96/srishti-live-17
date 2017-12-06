@@ -23,6 +23,7 @@ body {
   margin: 0;
 }
 article,
+article,
 aside,
 details,
 figcaption,
@@ -209,7 +210,7 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    //text-decoration: underline;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -278,7 +279,7 @@ th {
 }
 .glyphicon {
   position: relative;
-  top: 1px;
+  top: 3px;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
@@ -1105,12 +1106,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #4c6972;
+  color: #f3931f;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2d3f44;
+  color: #f3931f;
   text-decoration: underline;
 }
 a:focus {
@@ -1554,7 +1555,7 @@ address {
 }
 a,
 a:hover {
-  text-decoration: underline;
+  //text-decoration: underline;
 }
 h1,
 .h1,
