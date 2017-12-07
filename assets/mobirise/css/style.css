@@ -1757,3 +1757,8 @@ html {
 	top: 0;
 	left: -2400px;
 }
+
+.aspect3_2{
+	padding-top: 66.66%;
+	overflow: hidden;
+}
