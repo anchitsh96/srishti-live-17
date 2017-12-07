@@ -1207,6 +1207,10 @@ html {
     padding-top: 0.4em;
     margin-top: -0.4em;
   }
+  
+  .mbr-header__text a:hover {
+ text-decoration: underline;
+ } 
 }
 .mbr-social-icons__icon {
   -webkit-transition: all 0.2s ease-in-out 0s;
