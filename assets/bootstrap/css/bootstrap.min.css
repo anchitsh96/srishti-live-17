@@ -1268,6 +1268,8 @@ h6,
 .h6 {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 65%;
+
 }
 h4 small,
 .h4 small,
@@ -1297,7 +1299,8 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 15px;
+  font-size: 30px;
+  color: #000000;
 }
 h5,
 .h5 {
