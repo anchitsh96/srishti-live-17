@@ -565,7 +565,7 @@ html {
   padding: 93px 0;
 }
 .mbr-section__container--std-top-padding {
-  padding-top: 93px;
+  padding-top: 0px!important; 
 }
 .mbr-section__container--std-bot-padding {
   padding-bottom: 93px;
@@ -591,7 +591,7 @@ html {
   padding-bottom: 41px;
 }
 .mbr-section__container--last {
-  padding-bottom: 93px;
+  <!-- removed this to fix text spacing issue on projects page padding-bottom: 93px; -->
 }
 .mbr-section__row {
   margin-left: -24px;
