@@ -1,4 +1,4 @@
-f.is-builder .animated {
+.is-builder .animated {
   -webkit-animation-name: none !important;
   animation-name: none !important;
 }
