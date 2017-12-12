@@ -37,7 +37,7 @@ html {
 .mbr-navbar {
   position: relative;
   width: 100%;
-  background-color: #3e506e;
+  background-color: #f3931f;
 }
 .mbr-navbar:before {
   content: "";
@@ -293,7 +293,7 @@ html {
 }
 .mbr-navbar--stuck .mbr-navbar__section,
 .mbr-navbar--relative .mbr-navbar__section {
-  background-color: #3e506e;
+  background-color: #f3931f;
 }
 @media (max-width: 991px) {
   .mbr-navbar--auto-collapse .mbr-navbar__container {
