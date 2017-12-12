@@ -4,3 +4,5 @@ artists/.DS_Store
 assets/.DS_Store
 assets/web/.DS_Store
 Thumbs.db
+*.db
+*.db
