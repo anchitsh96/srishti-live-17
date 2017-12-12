@@ -1779,3 +1779,41 @@ html {
 .remove-padding-bottom{
 	padding-bottom: 20px!important;
 }
+.schedule-date{
+	font-family: 'archer','serif';
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.schedule-venue{  
+	display: block;
+  	font-size: 46px;
+  	padding-top:0.5em;
+  	line-height: 1.2em;
+  	margin: 0;
+	font-family: 'archer','serif';
+    color: #f3931f;
+    font-weight: normal;
+}
+.schedule-event-type{
+    font-family: 'archer','serif';
+    font-size: 26px;
+    color: #f3931f;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 1.5em;
+}
+.schedule-table{
+	border-collapse: collapse;
+    width: 100%;
+}
+.schedule-table tr{
+    height: 1.5em;
+}
+.schedule-project-name{
+	color:black;
+}
+.schedule-artist-name{
+	
+}
