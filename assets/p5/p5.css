@@ -8,8 +8,8 @@ body {
 canvas {
 	position: fixed;
 	left: 0;
-	top: 0;
- z-index=-1000;
+	top: 98px;
+	z-index=-100;
 }
 @charset "UTF-8";
 /* CSS Document */
